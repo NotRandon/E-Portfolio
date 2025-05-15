@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #eee;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.page {
+  display: none;
+}
+
+.page:not(.hidden) {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #eee;
+}
+
+/* Dark Mode */
+.light {
+  background-color: #fff;
+  color: #000;
+}
+
+.dark {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+.dark header,
+.dark footer {
+  background: #1f1f1f;
+}

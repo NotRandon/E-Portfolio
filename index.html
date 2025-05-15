@@ -1,0 +1,54 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="container" class="light">
+    <header>
+      <h1>My Portfolio</h1>
+      <nav>
+        <select id="page-select">
+          <option value="welcome">Welcome</option>
+          <option value="extracurricular">Extracurricular</option>
+          <option value="wbl">Work Based Learning</option>
+          <option value="extra">Extra Stuff</option>
+        </select>
+        <button id="toggle-mode">🌙</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="welcome" class="page">
+        <h2>Welcome</h2>
+        <p>Welcome to my personal portfolio! Explore the sections using the dropdown menu above.</p>
+      </section>
+
+      <section id="extracurricular" class="page hidden">
+        <h2>Extracurricular Activities</h2>
+        <p>List of clubs, organizations, sports, or hobbies you participate in.</p>
+      </section>
+
+      <section id="wbl" class="page hidden">
+        <h2>Work Based Learning</h2>
+        <p>Describe internships, job shadows, co-ops, or any practical learning experiences you've had.</p>
+      </section>
+
+      <section id="extra" class="page hidden">
+        <h2>Extra Stuff</h2>
+        <p>Fun facts, side projects, hobbies, or anything else you'd like to share!</p>
+      </section>
+    </main>
+
+    <footer>
+      © 2025 Your Name
+    </footer>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
