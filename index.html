@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +7,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div id="container" class="light">
+  <div id="container">
     <header>
       <h1>My Portfolio</h1>
       <nav>
@@ -18,34 +17,159 @@
           <option value="wbl">Work Based Learning</option>
           <option value="extra">Extra Stuff</option>
         </select>
-        <button id="toggle-mode">🌙</button>
       </nav>
     </header>
 
     <main>
       <section id="welcome" class="page">
         <h2>Welcome</h2>
-        <p>Welcome to my personal portfolio! Explore the sections using the dropdown menu above.</p>
+
+        <section class="headshot">
+          <img src="https://mail.google.com/mail/u/0?ui=2&ik=61186faa40&attid=0.1&permmsgid=msg-a:r-3688782168127093933&th=196dd753676dd2e1&view=fimg&fur=ip&permmsgid=msg-a:r-3688782168127093933&sz=s0-l75-ft&attbid=ANGjdJ9pG329w0sw5-fFc7uTYZ4wCqaaaVXNRmp5jSo9uTXEpXHeWl1JjQI2VXzarbA8pf_ULJuMzlxTmlHlzN6SxOR-q1Bjsxg_ujDQSk3jYQacKiMflMQnSRdQN24&disp=emb&realattid=A3149E17-4211-4B6F-942F-0D6EB24E4146&zw" alt="Headshot" class="profile-pic" />
+        </section>
+
+        <section class="bio">
+          <h3>Bio</h3>
+          <p>Hi I'm Randon, I'm currently a third year in high school, enrolled in the cybersecurity program. I also enjoy learning and experiencing how to fix cars, socializing with people, and learning new skills.</p>
+        </section>
+
+        <section class="statement">
+          <h3>Personal Statement</h3>
+          <blockquote>
+            "Sometimes you have to close a door to open a window. But, no matter which way you take you will always end up exactly where you need to be" - Randon Oda
+          </blockquote>
+        </section>
+
+        <section class="goals">
+          <h3>Goals and Objectives</h3>
+          <ul>
+            <li>Graduate with honors</li>
+            <li>Gain experience through internships and research</li>
+            <li>Develop strong communication and leadership skills</li>
+            <li>Contribute to projects that create real-world value</li>
+          </ul>
+        </section>
+
+        <section class="resume">
+          <h3>Resume</h3>
+          <img src="/media/resume.zip" alt="Resume Image" class="resume-img" />
+        </section>
+
+        <section class="contact">
+          <h3>Contact Information</h3>
+          <p>Email: <a href="mailto:randonoda8@gmail.com">randonoda8@gmail.com</a></p>
+          <p>GitHub: <a href="https://github.com/notrandon" target="_blank">github.com/notrandon</a></p>
+        </section>
       </section>
 
-      <section id="extracurricular" class="page hidden">
+      <section id="extracurricular" class="page">
         <h2>Extracurricular Activities</h2>
-        <p>List of clubs, organizations, sports, or hobbies you participate in.</p>
+        
+          <div class="extracurricular-text">
+            <section>
+              <h3>Clubs</h3>
+            <ul>
+            <li>Chinese Club</li>
+            <li>National Japanese Language Honor Society</li>
+            </ul>
+            </section>
+            <section>
+              <h3>Community Service</h3>
+              <p>Most of my community services were for NJLHS. They consisted of campus beautification. This includes painting the gym's walls and cleaning up murals around the campus.</p>
+            </section>
+            <section>
+              <h3>Hobbies</h3>
+              <p>I heavily enjoy learning about cars and also experiencing fixing cars for myself with my dad. We have worked mostly on just the family's cars. I also like to play some videogames in my free time. However, one of my favorite things to do is workout and go to the gym because being active is very important to me.</p>
+            </section>
+          </div>
+        </div>
       </section>
 
-      <section id="wbl" class="page hidden">
+      <section id="wbl" class="page">
         <h2>Work Based Learning</h2>
-        <p>Describe internships, job shadows, co-ops, or any practical learning experiences you've had.</p>
+
+        <section>
+          <h3>Classroom Experiences</h3>
+          <p>In class, we did a lot of different projects throughout the years. We took apart and reasembled a PC from scratch. We made ethernet cables from just the wire alone. We also did a lot of programming projects. We worked on projects like the mondrian project and the clock project, where we had to code a creative mondrian piece and a functioning clock.</p>
+        </section>
+
+        <section class="certificates-section">
+          <div class="certificates">
+  <h3>Certificates</h3>
+  <div class="certificate-gallery">
+    <figure>
+      <img src="media/cs1.jpg" alt="CS Written Communications certificate" />
+      <figcaption>CS Written Communications certificate</figcaption>
+    </figure>
+    <figure>
+      <img src="media/cs2.jpg" alt="OSHA 10 Certificate" />
+      <figcaption>OSHA 10 Certificate</figcaption>
+    </figure>
+    <figure>
+      <img src="media/Screenshot_20221103_105043.png" alt="Karel Badge" />
+      <figcaption>Karel Badge</figcaption>
+    </figure>
+    <figure>
+      <img src="media/Screenshot_20221213_110201.png" alt="Cybersecurity Badge" />
+      <figcaption>Cybersecurity Badge</figcaption>
+    </figure>
+    <figure>
+      <img src="media/Screenshot_20221213_110228.png" alt="coding with Karel Badge" />
+      <figcaption>coding with Karel Badge</figcaption>
+    </figure>
+    <figure>
+      <img src="media/Screenshot_20221213_110624.png" alt="Karel Coding Badge" />
+      <figcaption>Karel Coding Badge</figcaption>
+    </figure>
+    <figure>
+      <img src="media/Screenshot_20221213_110647.png" alt="Karel Badge" />
+      <figcaption>Karel Badge</figcaption>
+    </figure>
+    <figure>
+      <img src="media/Screenshot_20221213_110709.png" alt="Programming with Karel Badge" />
+      <figcaption>Programming with Karel Badge</figcaption>
+    </figure>
+  </div>
+</div>
+        </section>
+
+        <section class="projects-section">
+          <h3>Project Evidence</h3>
+          <div class="project-gallery">
+            <figure>
+              <img src="media/Screenshot 2025-05-16 233123.png" alt="Project 1" />
+              <figcaption>Mondrian Project</figcaption>
+            </figure>
+          </div>
+        </section>
       </section>
 
-      <section id="extra" class="page hidden">
+      <section id="extra" class="page">
         <h2>Extra Stuff</h2>
-        <p>Fun facts, side projects, hobbies, or anything else you'd like to share!</p>
+        <div class="extras-gallery">
+          <figure>
+            <img src="media/IMG_5205.jpeg" alt="Extra Image 1" />
+            <figcaption>cleaning up the Japanese mural</figcaption>
+          </figure>
+          <figure>
+            <img src="media/IMG_6522.jpeg" alt="Extra Image 2" />
+            <figcaption>setting up the Girl's Day shrine</figcaption>
+          </figure>
+          <figure>
+            <img src="media/IMG_6762.jpeg" alt="Extra Image 3" />
+            <figcaption>Getting inducted into NJLHS</figcaption>
+          </figure>
+          <figure>
+            <img src="media/IMG_7849.jpeg" alt="Extra Image 4" />
+            <figcaption>Makapu'u Lighthouse hike</figcaption>
+          </figure>
+          <figure>
+        </div>
       </section>
     </main>
 
     <footer>
-      © 2025 Your Name
+      © 2025 Randon Oda
     </footer>
   </div>
 
